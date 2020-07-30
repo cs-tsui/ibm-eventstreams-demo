@@ -24,7 +24,7 @@ java -jar build/libs/kafka-java-console-sample-2.0.jar $KAFKA_BOOTSTRAP_SERVERS 
 ```
 
 
-## To run on openshift
+## To run on Openshift
 ```
 # Use existing or new namespace
 oc project eventstreams
