@@ -1,6 +1,4 @@
 # IBM Event Streams Demo Producer / Consumer
-## Prebuilt image is available here
-https://hub.docker.com/r/cstsui/ibm-kafka-console
 
 ## Running Locally
 
@@ -26,7 +24,7 @@ java -jar build/libs/kafka-java-console-sample-2.0.jar $KAFKA_BOOTSTRAP_SERVERS 
 ```
 
 
-To run on openshift
+## To run on openshift
 ```
 # Use existing or new namespace
 oc project eventstreams
@@ -42,6 +40,7 @@ oc apply -f demo-es-secret.yaml
 
 # Apply the deployment - change argument of topic as needed in args
 oc apply -f kafka-java-console-sample.yaml
-
-oc apply -f
 ```
+
+## Prebuilt image is available here
+https://hub.docker.com/r/cstsui/ibm-kafka-console
