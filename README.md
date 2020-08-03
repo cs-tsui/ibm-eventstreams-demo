@@ -4,9 +4,7 @@
 
 ```
 # Set relavent environment variables for convenience
-# Set ES_CP4I flag to non-empty value and it will look for a es.cert.js file under src/main/resources
 
-export ES_CP4I=1
 export KAFKA_BOOTSTRAP_SERVERS=<BOOTSTRAP-SERVER-LIST>
 export KAFKA_API_KEY=<API_KEY>
 export CERT_PATH=./es-cert.jks
